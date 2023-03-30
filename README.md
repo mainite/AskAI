@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="./AskAI/Resources/Icon128.png" width="250px"></img>
+<img src="./AskAI/Resources/Icon128.png" width="100px"></img>
 </p>
 <h1 align="center" style="font-size:50px;font-weight:bold">AskAI</h1>
 <p align="center">chatGPT plugin for ue5</p>
@@ -19,6 +19,6 @@
 
 
 # AskAI Usage:
-<img src="./AskAI/Resources/config.png" width="300px"></img>
+<img src="./AskAI/Resources/config.png" width="600px"></img>
 <br>
-<img src="./AskAI/Resources/use.png" width="300px"></img>
+<img src="./AskAI/Resources/use.png" width="600px"></img>
