@@ -9,7 +9,7 @@
         <img src="https://img.shields.io/badge/license-Apach-blue" alt="GPL License" />
     </a>
     <a href="">
-        <img src="https://img.shields.io/badge/version-v2.0-green" alt="v1.0">
+        <img src="https://img.shields.io/badge/version-v1.0-green" alt="v1.0">
     </a> 
     <a href="https://github.com/BruceAKABear">
         <img src="https://img.shields.io/badge/author-hotMonk-blueviolet" alt="Author">
