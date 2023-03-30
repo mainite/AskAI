@@ -1,3 +1,4 @@
+// Copyright HotMonk, Inc. All Rights Reserved.
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
@@ -112,10 +113,10 @@ void UPostGPT::OnResponseReceived(FHttpRequestPtr Request, FHttpResponsePtr Resp
 
 			if (rRoot->HasField(TEXT("object")))
 			{
-				//ReturnMessage = rRoot->GetStringField(TEXT("object"));
+		
 				TArray<TSharedPtr<FJsonValue>> choicesArray = rRoot->GetArrayField(TEXT("choices"));
 				ReturnMessage = choicesArray[0]->AsObject()->GetObjectField(TEXT("message"))->GetStringField(TEXT("content"));
-				//choicesArray[0]->TryGetObject(TEXT("message"), /*out*/ messageObject);
+		
 
 				Event_OnSuccess(ReturnMessage);
 			}

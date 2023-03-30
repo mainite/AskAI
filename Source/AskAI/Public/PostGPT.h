@@ -1,3 +1,4 @@
+// Copyright HotMonk, Inc. All Rights Reserved.
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
@@ -40,7 +41,7 @@ class ASKAI_API UPostGPT : public UBlueprintAsyncActionBase
 
 	void StartApply(FString question);
 
-	//接口返回响应
+
 	void OnResponseReceived(FHttpRequestPtr Request, FHttpResponsePtr Response, bool bWasSuccessful);
 	
 };

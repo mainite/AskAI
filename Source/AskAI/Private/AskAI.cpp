@@ -1,4 +1,4 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Copyright HotMonk, Inc. All Rights Reserved.
 
 #include "AskAI.h"
 #include "ISettingsModule.h"
@@ -16,7 +16,7 @@ void FAskAIModule::StartupModule()
 	// 获取引擎设置
 	ISettingsModule* SettingsModule = FModuleManager::GetModulePtr<ISettingsModule>("Settings");
 
-	// 如果引擎设置可用，则将插件设置添加到引擎设置
+
 	if (SettingsModule != nullptr)
 
 	{
