@@ -22,3 +22,6 @@
 <img src="./AskAI/Resources/config.png" width="600px"></img>
 <br>
 <img src="./AskAI/Resources/use.png" width="600px"></img>
+
+# Video
+<a href="https://www.acfun.cn/v/ac41014214">演示视频</a>
